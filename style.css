@@ -10,7 +10,6 @@
 
 .main-content{
     min-height: 1000px;
-    width: 90%;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
@@ -47,8 +46,13 @@
     border: 5px solid white;
     border-radius: 30%;
 }
-.profile-details > .name{
-    padding: 5px;
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: 0.02px;
+    padding: 0.8rem;
+
 }
 .profile-details > .designation{
     padding-bottom: 0.5rem;
@@ -89,7 +93,7 @@
     margin-bottom: 0.25rem;
 }
 
-.skills-title{
+.skills{
     font-size: 0.75rem;
     align-items: center;
     text-transform: uppercase;
