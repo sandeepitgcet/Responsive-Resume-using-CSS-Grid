@@ -7,3 +7,136 @@
 }
 
 /* Write CSS code below */
+
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+
+}
+
+.left-section{
+    height: 1000px;
+}
+
+.left-content{
+    padding: 1rem;
+    background-color: #0e3763;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-details{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.profile{
+    display: flex;
+}
+.profile-image{
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 30%;
+}
+.profile-details > .name{
+    padding: 5px;
+}
+.profile-details > .designation{
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.profile-details > .description{
+    padding: 1rem;
+    font-size: 0.75rem;
+}
+
+.profile-details > .contact-items{
+    padding: 3px;
+}
+.contact-info{
+    padding: auto;
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item >.personal-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+.icons{
+    margin-bottom: 0.25rem;
+}
+
+.skills-title{
+    font-size: 0.75rem;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.skill-name{
+    text-align: left;
+    font-size: 0.65rem;
+    font-weight: .65rem;
+    padding-bottom: 0.5rem;
+}
+
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.right-main-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.sect{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.course-name{
+    text-transform: uppercase;
+}
+
+
+
