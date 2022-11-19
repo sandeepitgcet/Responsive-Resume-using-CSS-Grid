@@ -49,7 +49,7 @@
     text-transform: uppercase;
     white-space: 0.02px;
     padding: 0.8rem;
-
+    text-align: center;
 }
 .profile-details > .designation{
     padding-bottom: 0.5rem;
