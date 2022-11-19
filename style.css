@@ -10,6 +10,7 @@
 
 .main-content{
     min-height: 1000px;
+    width: 90%;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
@@ -18,6 +19,7 @@
 
 .left-section{
     height: 1000px;
+    columns: auto 1;
 }
 
 .left-content{
@@ -25,8 +27,7 @@
     background-color: #0e3763;
     text-align: center;
     color: white;
-    display: flex;
-    flex-direction: column;
+    grid-column: auto;
 }
 
 .profile-details{
@@ -117,6 +118,11 @@
     border-radius: 2px;
 }
 
+.right-section{
+    display: grid;
+    grid-template-columns: auto;
+}
+
 .right-main-content{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -141,6 +147,5 @@
 .course-name{
     text-transform: uppercase;
 }
-
 
 
