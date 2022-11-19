@@ -17,6 +17,14 @@
 
 }
 
+.left-section{
+    grid-column: auto/auto;
+}
+
+.right-section{
+    grid-column: auto/auto;
+}
+
 .left-content{
     padding: 1rem;
     background-color: #0e3763;
@@ -150,10 +158,19 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+
     .left-section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-column: span 1 / auto;
     }
+
+    .right-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column: span 1/ span 2;
+    }
+
     .profile-details{
         display: flex;
         justify-content: center;
