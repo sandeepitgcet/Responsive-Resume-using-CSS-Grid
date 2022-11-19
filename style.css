@@ -7,7 +7,9 @@
 }
 
 /* Write CSS code below */
-
+html{
+    width: fit-content;
+}
 .main-content{
     min-height: 1000px;
     width: 90%;
@@ -15,11 +17,6 @@
     display: grid;
     grid-template-columns: 300px 700px;
 
-}
-
-.left-section{
-    height: 1000px;
-    columns: auto 1;
 }
 
 .left-content{
