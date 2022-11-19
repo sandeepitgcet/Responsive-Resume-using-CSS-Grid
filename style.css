@@ -7,9 +7,7 @@
 }
 
 /* Write CSS code below */
-html{
-    width: fit-content;
-}
+
 .main-content{
     min-height: 1000px;
     width: 90%;
@@ -25,10 +23,10 @@ html{
     text-align: center;
     color: white;
     grid-column: auto;
+    width: 100%;
 }
 
 .profile-details{
-    width: 260px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -36,6 +34,7 @@ html{
 }
 .profile{
     display: flex;
+    
 }
 .profile-image{
     display: block;
@@ -146,3 +145,17 @@ html{
 }
 
 
+@media screen and (max-width:674px) {
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .left-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .profile-details{
+        display: flex;
+        justify-content: center;
+    }
+}
