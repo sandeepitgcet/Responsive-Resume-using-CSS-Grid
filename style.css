@@ -18,11 +18,14 @@
 }
 
 .left-section{
-    grid-column: auto/auto;
+    display: grid;
+    grid-template-columns: auto /auto;
+
 }
 
 .right-section{
-    grid-column: auto/auto;
+    display: grid;
+    grid-template-columns: auto/auto;
 }
 
 .left-content{
