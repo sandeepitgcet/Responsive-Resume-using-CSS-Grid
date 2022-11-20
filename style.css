@@ -25,7 +25,7 @@
 
 .right-section{
     display: grid;
-    grid-column-start: span 1 / span 2;
+    grid-column: span 1 / span 2;
 }
 
 .left-content{
