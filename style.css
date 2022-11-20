@@ -19,13 +19,13 @@
 
 .left-section{
     display: grid;
-    grid-template-columns: auto /auto;
+    grid-column: span 1 / auto;
 
 }
 
 .right-section{
     display: grid;
-    grid-template-columns: auto/auto;
+    grid-column-start: span 2 /auto;
 }
 
 .left-content{
@@ -164,12 +164,10 @@
 
     .left-section{
         display: grid;
-        grid-column: span 1 / auto;
     }
 
     .right-section{
         display: grid;
-        grid-column: span 1 / span 2;
     }
 
     .profile-details{
