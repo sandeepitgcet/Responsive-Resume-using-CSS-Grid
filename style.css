@@ -156,11 +156,30 @@
 }
 
 
-@media screen and (max-width:674px) {
+@media screen and (max-width:673px) {
     .main-content{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-template-columns: auto;
+    }
+
+    .left-section{
+        display: grid;
+    }
+
+    .right-section{
+        display: grid;
+    }
+
+    .profile-details{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 
     .left-section{
